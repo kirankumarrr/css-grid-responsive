@@ -1,0 +1,27 @@
+/* Media Queries */
+@media (max-width: 700px) {
+  .main-nav ul,
+  .info {
+    grid-template-columns: 1fr;
+  }
+
+  /* Top Container */
+  .top-container {
+    grid-template-areas:
+      'showcase showcase'
+      'top-box-a top-box-b';
+  }
+
+  .Showcase h1 {
+    font-size: 2rem;
+  }
+
+  .top-box .price {
+    font-size: 1.5rem;
+  }
+
+  .info .btn {
+    display: block;
+    text-align: center;
+  }
+}

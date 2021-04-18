@@ -1,0 +1,15 @@
+/* Media Queries */
+@media (max-width: 500px) {
+  .main-nav ul,
+  .info {
+    grid-template-columns: 1fr;
+  }
+
+  /* Top Container */
+  .top-container {
+    grid-template-areas:
+      'showcase'
+      'top-box-a'
+      'top-box-b';
+  }
+}
